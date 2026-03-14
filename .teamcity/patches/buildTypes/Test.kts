@@ -12,5 +12,5 @@ changeBuildType(RelativeId("Test")) {
     check(artifactRules == "") {
         "Unexpected option value: artifactRules = $artifactRules"
     }
-    artifactRules = "target/*.jar => plaindoll.jar"
+    artifactRules = "target/plaindoll-master.jar"
 }
